@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.container-top {
+    background-color: #ebeded;
+    width: 100%;
+    height: 85%;
+    display: flex;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.container-bottom {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.language {
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+
+.language span {
+    position: relative;
+    top: 100%;
+    left: 25%;
+    margin-right: 10px;
+    background-color: #fff;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Niconne', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.language a {
+    text-decoration: none;
+}
+
+.add span {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #f5f6f7;
+    border-color: #ccd0d5;
+    border-radius: 2px;
+    height: 18px;
+    color: #000000;
+    border: 1px solid;
+    padding: 0 8px;
+}
+
+.thanh-ngang2 {
+    position: absolute;
+    width: 70%;
+    bottom: 90px;
+    left: 17.8%;
+    border-top: 1px solid black;
+    opacity: 0.1;
+}
+
+.khong-biet-dat-ten {
+    position: relative;
+    bottom: 30px;
+    left: 270px;
+    width: 930px;
+    height: auto;
+    background-color: #fff;
+}
+
+.khong-biet-dat-ten span {
+    background-color: #fff;
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Niconne', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.khong-biet-dat-ten a {
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+}
+
+.meta {
+    position: absolute;
+    top: 40px;
+    left: 17.8%;
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Niconne', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-top-left {
+    position: relative;
+    height: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.container-title {
+    width: 70%;
+    position: absolute;
+    top: 28%;
+    left: 35%;
+}
+
+.title-content {
+    margin-left: 25px;
+    text-align: left;
+    width: 500px;
+    font-size: 28px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+img {
+    text-align: center;
+    width: 310px;
+    margin-right: 200px;
+}
+
+.container-top-right {
+    padding-left: 5%;
+    width: 50%;
+}
+
+input {
+    border: solid 1px #dddfe2;
+    /* box-sizing: border-box; */
+    background-color: white;
+    font-size: 15px;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 15px;
+    outline: none;
+}
+
+input:focus {
+    border: solid 3px #1877f2;
+}
+
+.form-login {
+    position: relative;
+    top: 140px;
+    left: 50px;
+    width: 390px;
+    height: 350px;
+    border-radius: 2%;
+    background-color: white;
+}
+
+.account {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.password {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+i.fas {
+    position: absolute;
+    left: 88%;
+    top: 96px;
+    cursor: pointer;
+}
+
+.log-in {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+
+button {
+    width: 350px;
+    height: 50px;
+    color: white;
+    background-color: #1877f2;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+}
+
+.forget-password {
+    position: absolute;
+    top: 220px;
+    left: 140px;
+    background-color: white;
+    color: #1877f2;
+    font-size: 16px;
+}
+
+.thanh-ngang {
+    position: absolute;
+    top: 75%;
+    width: 90%;
+    left: 5%;
+    border-top: 1px solid black;
+    opacity: 0.1;
+}
+
+.new-account button {
+    position: absolute;
+    top: 280px;
+    left: 25%;
+    background-color: #42b72a;
+    font-size: 17px;
+    width: 180px;
+}
+
+.tao-trang {
+    position: relative;
+    top: 160px;
+    left: 45px;
+    text-decoration: none;
+    width: 400px;
+    text-align: center;
+}
+
+.tao-trang a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+}
+
+.tao-trang span {
+    font-size: 14px;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+}
